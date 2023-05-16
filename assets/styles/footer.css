@@ -1,0 +1,19 @@
+
+.footer__container {
+    background: var(--quaternary-color);
+    color: var(--text-secondary-color);
+    padding: 50px 0;
+    width: 100%;
+}
+
+.footer__description {
+    font-size: var(--subtitles-cards);
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .footer__description {
+        font-size: var(--desktop-subtitles-cards);
+        line-height: 1.5;
+    }
+}

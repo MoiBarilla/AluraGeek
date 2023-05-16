@@ -1,0 +1,80 @@
+{
+  "funkos": [
+    {
+      "url": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwbdc500b7/images/funko/65723-1.png?sw=800&sh=800",
+      "name": "Spider-Gwen",
+      "price": "$55",
+      "category": "funkos",
+      "description": "Esta heroina esta explorando los hilos del multiverso con su equipo de amigos arácnidos.",
+      "id": "ddf75b58-072c-4649-8d18-f9f48a43174e"
+    },
+    {
+      "url": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw20e21a89/images/funko/65722-1.png?sw=800&sh=800",
+      "name": "Spider-Man Miles Morales",
+      "price": "$40",
+      "category": "funkos",
+      "description": "Salta a la acción con este superheroe bastante peculiar que está volviendo loco el universo arácnido.",
+      "id": "10fe9a91-6492-4210-ae94-7bf184918be3"
+    },
+    {
+      "url": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwa922e723/images/funko/upload/64998b_POPAnimation_Transformers_OptimusSFX_GLAM-WEB.png?sw=800&sh=800",
+      "name": "Optimus Prime",
+      "price": "$106",
+      "category": "funkos",
+      "description": "Transform your collection with the exclusive, Lights and Sounds Pop! Optimus Prime! This leader of the Autobots™ has shifted out his semitruck disguise and is ready to defend humanity from the Decepticons™. There will be more to your Transformers™ collection than meets the eye with this honorable robot as he gears up for action in your home.",
+      "id": "d31d2e7a-12ee-417c-823f-318d858ab3d1"
+    },
+    {
+      "url": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw640995de/images/funko/50966-1.png?sw=800&sh=800",
+      "name": "Bumblebee",
+      "price": "$77",
+      "category": "funkos",
+      "description": "The modular toys of characters from the 1984 TV series The Transformers awed fans with the robot warriors from planet Cybertron that converted into various vehicles and objects. Bumblebee is one of the most recognizable Autobot robots that usually converts into a small yellow car. Optimus Prime needs his comrade Bumblebee, in Pop! form, to serve beside him as they battle the Decepticons in your retro toys and The Transformers collection.",
+      "id": "33494e18-7a49-4ac4-bc01-1366c6ed4d85"
+    }
+  ],
+  "consoles": [
+    {
+      "url": "https://gmedia.playstation.com/is/image/SIEPDC/psvr2-headset-controllers-image-block-03-en-17mar22?$1600px--t$",
+      "category": "consolas",
+      "name": "PlayStation VR2",
+      "price": "$549",
+      "description": "Escápate a mundos que se sienten muy reales, ya que los juegos de realidad virtual dan un enorme salto generacional con PlayStation VR2.",
+      "id": "0a6931e5-f711-45c5-84eb-2fff237097d7"
+    },
+    {
+      "url": "https://cdn.cloudflare.steamstatic.com/steamdeck/images/ver2/overview3options.png",
+      "category": "consolas",
+      "name": "Steam Deck",
+      "price": "$399",
+      "description": "La nueva pantalla de inicio incluye todo lo que te encanta de Steam en un solo lugar. En Inicio es donde encontrarás todo lo que necesitas: vuelve a sumergirte en un juego, ya sea que lo estuvieras jugando en Steam Deck™ o en el tu PC; mira las novedades de tu biblioteca y la tienda, así como las actividades de tus amigos.",
+      "id": "63e37fb8-478a-43cc-b948-a3124dbc3ae2"
+    }
+  ],
+  "games": [
+    {
+      "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/2812/xR10Bo3dC6iArjBJDE73LgYj.jpg?w=440&thumb=false",
+      "category": "juegos",
+      "name": "Spider-Man Miles Morales",
+      "price": "$39.89",
+      "description": "Experimenta el ascenso de Miles Morales y sé testigo de cómo el nuevo héroe domina nuevos poderes increíbles y explosivos para convertirse en su propia versión de Spider-Man.",
+      "id": "9e5354cd-ab59-446c-9e99-83bb472043a4"
+    },
+    {
+      "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/2912/A6ApK2wAUeYMkCcEal3pgyFk.jpg?w=440&thumb=false",
+      "category": "juegos",
+      "name": "Sackboy: Una gran Aventura",
+      "price": "$79.55",
+      "description": "Enfrenta retos emocionantes e impredecibles mientras exploras mundos hechos a mano con controles inmersivos y expresivos. Participa por tu cuenta de una carrera épica contra el tiempo plagada de peligros o crea equipos de entre dos y cuatro aventureros para una divertidísima partida grupal en la que superarán obstáculos nefastos como se imaginen. ¿Puedes salvar a Mundo Artesano de las manos del ruin Vex y su horripilante Ponepatas Pararriba... y convertirte en un legendario Caballero Tejido?",
+      "id": "b75c498b-ff7b-48f6-ab7f-5a488fc4a8f4"
+    },
+    {
+      "url": "https://image.api.playstation.com/vulcan/img/rnd/202010/2715/DSDJMtBukq8sscRQjmiF5asv.jpg?w=440&thumb=false",
+      "name": "Death Stranding",
+      "price": "$49",
+      "category": "games",
+      "description": "El legendario creador de videojuegos, Hideo Kojima, nos ofrece en este Director's Cut definitivo una experiencia de juego que desafía al género, ampliada y remasterizada para la consola PS5™.",
+      "id": "ea1a16d1-174e-44dc-ada2-bac2a5c09353"
+    }
+  ]
+}

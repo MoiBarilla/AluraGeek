@@ -1,0 +1,162 @@
+.cards__container--server,
+.show__products__container--server {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 50px 0 0 0;
+    width: 95%;
+}
+
+.none {
+    display: none !important;
+}
+.flex {
+    display: flex !important;
+}
+
+.cards__server__container--funkos,
+.cards__server__container--consoles,
+.cards__server__container--games {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+}
+
+.funko--single,
+.console--single,
+.game--single {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+}
+
+.card__server {
+    align-items: center;
+    background: var(--primary-color);
+    border: 1px solid var(--tertiary-color);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    min-height: 300px;
+    min-width: 145px;
+    padding: 0 15px;
+    position: relative;
+    width: 45%;
+}
+
+.card__server--funko:hover,
+.card__server--console:hover,
+.card__server--game:hover {
+    border: 1px solid var(--quaternary-color);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.card__img__server {
+    max-width: 200px;
+    width: 90%;
+}
+
+.card__name__server {
+    font-size: var(--texts);
+    font-weight: 500;
+    text-align: center;
+}
+
+.card__price__server {
+    font-size: var(--subtitles-cards);
+    font-weight: 600;
+}
+
+@media (min-width:500px) {
+    .cards__container--server,
+    .show__products__container--server {
+        width: 90%;
+    }
+
+    .cards__server__container--funkos,
+    .cards__server__container--consoles,
+    .cards__server__container--games,
+    .funko--single,
+    .console--single,
+    .game--single {
+        width: 100%;
+    }
+
+    .card__server {
+        min-width: 125px;
+        padding: 0;
+        width: 20%;
+    }
+}
+
+@media (min-width:768px) {
+    .cards__container--server
+    .show__products__container--server {
+        width: 9%;
+    }
+
+    .cards__container {
+        width: 95%;
+    }
+
+    .cards__server__container--funkos,
+    .cards__server__container--consoles,
+    .cards__server__container--games,
+    .funko--single,
+    .console--single,
+    .game--single {
+        width: 100%;
+    }
+
+    .card__server {
+        height: 350px;
+        min-width: 200px;
+        padding: 10px;
+        width: 15%;
+    }
+}
+
+@media (min-width:1024px) {
+    .cards__container--server
+    .show__products__container--server {
+        width: 90%;
+    }
+
+    .cards__server__container--funkos,
+    .cards__server__container--consoles,
+    .cards__server__container--games,
+    .funko--single,
+    .console--single,
+    .game--single {
+        width: 100%;
+    }
+
+    .card__server {
+        height: 400px;
+    }
+
+    .card__name__server {
+        font-size: var(--desktop-subtitles-cards);
+    }
+
+    .card__price__server {
+        font-size: var(--desktop-subtitles);
+    }
+}
+
+@media (max-width: 350px) {
+    .card__server {
+        width: 90%;
+    }
+}

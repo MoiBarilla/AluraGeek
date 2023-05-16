@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------------------------------------------------- Fonts ---------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Stardos+Stencil:wght@700&display=swap"
+        rel="stylesheet">
+    <!-------------------------------------------------- Styles ---------------------------------------------->
+    <link rel="stylesheet" href="../assets/styles/style.css">
+
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <!--------------------------------------------------- Nav ------------------------------------------------>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav--container">
+                <!-------------------------------------- Logo ------------------------------------------------>
+                <a class="logo--container nav__link" href="./index.html">
+                    <img class="nav__logo" src="../assets/svg/alurageek__logo.svg" alt="logo">
+                    <h1 class="nav__logo__title"><span class="alura">Alura</span>Geek</h1>
+                </a>
+
+                <div class="nav__input--container">
+                    <input class="nav__input search" type="text" placeholder="Buscar">
+                    <button class="nav__button__input">
+                        <img class="nav__button__input--logo" src="../assets/svg/search__icon.svg"
+                            alt="Magnifying Glass">
+                    </button>
+                </div>
+            </div>
+            <div class="nav__input--container--mobile">
+                <input class="nav__input--mobile search" type="text" placeholder="Buscar">
+                <button class="nav__button__input--mobile">
+                    <img class="nav__button__input--logo--mobile" src="../assets/svg/search__icon.svg"
+                        alt="Magnifying Glass">
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="container__modal">
+            <div class="modal__body">
+                <h2 class="modal__title">Lo Sentimos No Nemos Podido Realizar Tu Petición</h2>
+
+                <img class="modal__img--item" src="../assets/img/error.jpg" alt="success">
+
+                <a class="button" href="./manageProduct.html">Regresar</a>
+            </div>
+        </section>
+        
+        <!-------------------------------------------- Contacto ---------------------------------------------->
+        <section class="contact__container">
+            <div class="logo__list--container">
+                <!-------------------------------------- Logo ------------------------------------------------>
+                <div class="logo--container">
+                    <img class="nav__logo" src="../assets/svg/alurageek__logo.svg" alt="logo">
+                    <h1 class="nav__logo__title"><span class="alura">Alura</span>Geek</h1>
+                </div>
+
+                <!-------------------------------------- List ------------------------------------------------>
+                <ul>
+                    <li class="contact__list"><a class="contact__list--item" href="#">¿Quienes somos?</a></li>
+                    <li class="contact__list"><a class="contact__list--item" href="#">Política de privacidad</a></li>
+                    <li class="contact__list"><a class="contact__list--item" href="#">Programa de fidelidad</a></li>
+                    <li class="contact__list"><a class="contact__list--item" href="#">Nuestras Tiendas</a></li>
+                    <li class="contact__list"><a class="contact__list--item" href="#">Quiero ser franquiciado</a></li>
+                    <li class="contact__list"><a class="contact__list--item" href="#">Anuncie aquí</a></li>
+                </ul>
+            </div>
+            <form class="form" data-contact>
+                <h2 class="form--title">Hable con nosotros</h2>
+                <input class="form--input" type="text" placeholder="Nombre" data-formnombre>
+                <input class="form--input" type="email" placeholder="Email" data-formemail>
+                <textarea class="form--input" name="" id="" cols="30" rows="5"
+                    placeholder="Escribe tu Mensaje" data-formmensaje></textarea>
+                <button type="submit" class="button">Enviar Mensaje</button>
+            </form>
+        </section>
+        <!---------------------------------------------- Footer ---------------------------------------------->
+        <footer class="footer__container">
+            <div class="footer__description">
+                <p class="description">Desarrollado por &copy;Moises Barilla</p>
+                <p class="description">2022</p>
+            </div>
+        </footer>
+    </main>
+
+    <script type="module" src="../scripts/controllers/searchController.js"></script>
+    <script src="../scripts/controllers/contactController.js"></script>
+
+</body>
+
+</html>

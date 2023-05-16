@@ -1,0 +1,42 @@
+.edit__product {
+    align-items: center;
+    border-radius: 10px 0 0 0;
+    color: var(--text-primary-color);
+    display: flex;
+    font-size: var(--titles);
+    font-weight: bold;
+    height: 50px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+.delete__product {
+    align-items: center;
+    border-radius: 0 10px 0 0;
+    color: var(--text-primary-color);
+    display: flex;
+    font-size: var(--titles);
+    font-weight: bold;
+    height: 50px;
+    justify-content: center;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+
+.edit__product:hover {
+    background: var(--secondary-color);
+}
+.delete__product:hover {
+    background: var(--wishlist);
+}
+
+.edit--icon,
+.delete--icon {
+    height: 40px;
+    width: 40px;
+}

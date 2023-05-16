@@ -1,0 +1,63 @@
+/* Modal */
+
+.container__modal {
+    align-items: center;
+    backdrop-filter: blur(1px);
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    width: 100%;
+}
+.modal__body {
+    align-items: center;
+    background-color: var(--quaternary-color);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+    max-height: fit-content;
+    max-width: 450px;
+    padding: 25px 0;
+}
+.modal__title {
+    color: var(--text-secondary-color);
+    font-size: var(--titles);
+    font-weight: bold;
+    margin: 0 25px;
+    text-align: center;
+}
+.modal__img--item {
+    max-height: 300px;
+    max-width: 300px;
+    width: 90%;
+}
+
+
+@media (min-width:500px) {
+    .modal__body {
+        max-height: fit-content;
+        max-width: 500px;
+    }
+    .modal__img--item {
+        max-height: 395px;
+        max-width: 395px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .modal__body {
+        max-height: fit-content;
+        max-width: 600px;
+        padding: 50px 0;
+    }
+    .modal__title {
+        font-size: var(--desktop-logo);
+        margin: 0 25px;
+    }  
+    .modal__img--item {
+        max-height: 400px;
+        max-width: 400px;
+    }  
+}

@@ -1,0 +1,44 @@
+:root {
+    /*Styles For Mobile Version*/
+
+    --primary-color: #F7FAF8;
+    --secondary-color: #0c8f26;
+    --tertiary-color: #80ada3;
+    --quaternary-color: #1B2021;
+    --quinary-color: #1d5b66;
+    --muted-color: #DDDDDD;
+
+    /* Button Hover */
+    --btn-hover: #116922;
+    --wishlist: #D21312;
+
+    /* Links */
+    
+    /* Text Color*/
+    --text-primary-color: #1B2021;
+    --text-secondary-color: #f3f3f3;
+
+    /* Fonts */
+    --primary-font:'Montserrat', sans-serif;
+    --font-secondary:'Stardos Stencil', cursive;
+
+    /* Font Sizes */
+    --titles: 2.2rem;
+    --subtitles: 1.8rem;
+    --subtitles-cards: 1.6rem;
+    --texts: 1.4rem;
+
+    /* Box Shadows */
+    --box-shadow: 2.5px 2.5px 10px 2.5px rgba(128, 173, 173, 0.5);
+
+    /* Box Shadows Hover */
+    --box-shadow-hover: 2.5px 2.5px 10px 2.5px rgba(0, 0, 0, 0.5);
+
+    /* Styles for desktop version */
+        /* Font Sizes */
+        --desktop-logo: 3.2rem;
+        --desktop-titles: 4.8rem;
+        --desktop-subtitles: 2.4rem;
+        --desktop-subtitles-cards: 2.2rem;
+        --desktop-texts: 1.8rem;
+}

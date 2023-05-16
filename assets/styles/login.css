@@ -1,0 +1,45 @@
+.login__container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    width: 100%;
+}
+.login {
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: var(--box-shadow-hover);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    margin: 25px 0;
+    max-width: 700px;
+    padding: 25px 15px;
+    width: 90%;
+}
+.login__title {
+    color: var(--text-primary-color);
+    font-size: var(--subtitles);
+    font-weight: 600;
+}
+
+@media (min-width:500px) {
+    .login {
+        min-width: 250px;
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .login__title {
+        font-size: var(--desktop-logo);
+        margin-bottom: 25px;
+    }
+    .login {
+        gap: 25px;
+        margin: 50px 0;
+        padding: 50px;
+    }
+}

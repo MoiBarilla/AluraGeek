@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------------------------------------------------- Fonts ---------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Stardos+Stencil:wght@700&display=swap"
+        rel="stylesheet">
+    <!-------------------------------------------------- Styles ---------------------------------------------->
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+        <!--------------------------------------------------- Nav ------------------------------------------------>
+        <header class="header--admin">
+            <nav class="nav--admin">
+                <div class="nav--container--admin">
+                    <!-------------------------------------- Logo ------------------------------------------------>
+                    <a class="logo--container--admin nav__link" href="./index.html">
+                        <img class="nav__logo--admin" src="../assets/svg/alurageek__logo.svg" alt="logo">
+                        <h1 class="nav__logo__title--admin"><span class="alura">Alura</span>Geek</h1>
+                    </a>
+    
+                    <div class="nav__input--container--admin">
+                        <input class="nav__input--admin" type="text" placeholder="Buscar">
+                        <button class="nav__button__input--admin">
+                            <img class="nav__button__input--logo--admin" src="../assets/svg/search__icon.svg"
+                                alt="Magnifying Glass">
+                        </button>
+                    </div>
+                    <a class="nav__button--mobile--admin" href="./manageProduct.html">Menú Administrador</a>
+                </div>
+                <a class="nav__button--admin" href="./manageProduct.html">Menú Administrador</a>
+                <div class="nav__input--container--mobile--admin">
+                    <input class="nav__input--mobile--admin" type="text" placeholder="Buscar">
+                    <button class="nav__button__input--mobile--admin">
+                        <img class="nav__button__input--logo--mobile--admin" src="../assets/svg/search__icon.svg"
+                            alt="Magnifying Glass">
+                    </button>
+                </div>
+    
+            </nav>
+        </header>
+    
+    <main>
+        <section class="add__product__container">
+            <form class="add__product__form" data-form>
+                <h2 class="add__product__title">Agregar Nuevo Producto</h2>
+
+                <input class="add__product__input" type="text" name="url" placeholder="Url de la Imagen" data-url>
+                <select class="add__product__input" type="text" name="category" data-category>
+                    <option value="" defaultValue="" hidden>Seleccione Una Categoría</option>
+                    <option value="funkos">Funkos</option>
+                    <option value="consoles">Consolas</option>
+                    <option value="games">Juegos</option>
+                </select>
+                <input class="add__product__input" type="text" name="name" placeholder="Nombre del Producto" data-name="">
+                <input class="add__product__input" type="text" name="price" placeholder="Precio del Producto" data-price>
+                <textarea class="add__product__input" name="description" cols="30" rows="10" placeholder="Description del Producto" data-description></textarea>
+                <button id="formButton" type="submit" class="button">Agregar Producto</button>
+            </form>
+        </section>
+
+        </section>
+                <!-------------------------------------------- Contacto ---------------------------------------------->
+                <section class="contact__container">
+                    <div class="logo__list--container">
+                        <!-------------------------------------- Logo ------------------------------------------------>
+                        <div class="logo--container">
+                            <img class="nav__logo" src="../assets/svg/alurageek__logo.svg" alt="logo">
+                            <h1 class="nav__logo__title"><span class="alura">Alura</span>Geek</h1>
+                        </div>
+        
+                        <!-------------------------------------- List ------------------------------------------------>
+                        <ul>
+                            <li class="contact__list"><a class="contact__list--item" href="#">¿Quienes somos?</a></li>
+                            <li class="contact__list"><a class="contact__list--item" href="#">Política de privacidad</a></li>
+                            <li class="contact__list"><a class="contact__list--item" href="#">Programa de fidelidad</a></li>
+                            <li class="contact__list"><a class="contact__list--item" href="#">Nuestras Tiendas</a></li>
+                            <li class="contact__list"><a class="contact__list--item" href="#">Quiero ser franquiciado</a></li>
+                            <li class="contact__list"><a class="contact__list--item" href="#">Anuncie aquí</a></li>
+                        </ul>
+                    </div>
+                    <form class="form" data-contact>
+                        <h2 class="form--title">Hable con nosotros</h2>
+                        <input class="form--input" type="text" placeholder="Nombre" data-formnombre>
+                        <input class="form--input" type="email" placeholder="Email" data-formemail>
+                        <textarea class="form--input" name="" id="" cols="30" rows="5"
+                            placeholder="Escribe tu Mensaje" data-formmensaje></textarea>
+                        <button type="submit" class="button">Enviar Mensaje</button>
+                    </form>
+                </section>
+
+        <!---------------------------------------------- Footer ---------------------------------------------->
+        <footer class="footer__container">
+            <div class="footer__description">
+                <p class="description">Desarrollado por &copy;Moises Barilla</p>
+                <p class="description">2022</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../scripts/controllers/formController.js"></script>
+    <script src="../scripts/controllers/contactController.js"></script>
+
+</body>
+</html>
